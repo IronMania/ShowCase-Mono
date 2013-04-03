@@ -60,7 +60,7 @@ Global
 		{20D2A2EA-1B61-4382-A626-7704C8888006}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = MonoShowCase\MonoDroid.csproj
+		StartupItem = iPhone\iPhone.csproj
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

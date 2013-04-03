@@ -11,6 +11,7 @@ namespace iPhone
 	{
 		public HelloWorldController () : base ("HelloWorldController", null)
 		{
+			Title="World";
 		}
 		
 		public override void DidReceiveMemoryWarning ()
