@@ -9,6 +9,7 @@ namespace iPhone
 		public TabController ()
 		{
 			HelloWorldController world = new HelloWorldController();
+
 			HellGpsController gps = new HellGpsController();
 			HelloCamController cam = new HelloCamController();
 

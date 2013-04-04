@@ -12,6 +12,7 @@ namespace iPhone
 		public HelloWorldController () : base ("HelloWorldController", null)
 		{
 			Title="World";
+			TabBarItem.Image = UIImage.FromFile("Images/second.png");
 		}
 		
 		public override void DidReceiveMemoryWarning ()

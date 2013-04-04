@@ -87,6 +87,7 @@
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Pages\" />
+    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -113,5 +114,11 @@
     <InterfaceDefinition Include="Pages\HellGpsController.xib" />
     <InterfaceDefinition Include="Pages\HelloCamController.xib" />
     <InterfaceDefinition Include="Pages\HelloWorldController.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Images\second.png" />
+    <BundleResource Include="Images\second%402x.png" />
+    <BundleResource Include="Images\first.png" />
+    <BundleResource Include="Images\first%402x.png" />
   </ItemGroup>
 </Project>

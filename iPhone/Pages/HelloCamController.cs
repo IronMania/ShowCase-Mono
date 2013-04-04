@@ -18,6 +18,7 @@ namespace iPhone
 		public HelloCamController () : base ("HelloCamController", null)
 		{
 			Title = "Cam";
+			TabBarItem.Image = UIImage.FromFile("Images/first.png");
 		}
 		
 		public override void DidReceiveMemoryWarning ()
@@ -39,18 +40,21 @@ namespace iPhone
 
 		private void TakePicture (object sender, EventArgs e)
 		{
-			if(!picker.IsCameraAvailable || !picker.PhotosSupported)
-			{
-				var alert = new UIAlertView("Device Unsupported", "Your device does not support this feature",new UIAlertViewDelegate(), "OK");
-				alert.Show();
-				return;
-			}
+//			if(!picker.IsCameraAvailable || !picker.PhotosSupported)
+//			{
+//				var alert = new UIAlertView("Device Unsupported", "Your device does not support this feature",new UIAlertViewDelegate(), "OK");
+//				alert.Show();
+//				return;
+//			}
 
-			picker.TakePhotoAsync(new Xamarin.Media.StoreCameraMediaOptions
-			                      {
-				Name = "test.jpg",
-				Directory ="MediaPickerSampel"
-			}).ContinueWith(t=>
+//			picker.TakePhotoAsync(new Xamarin.Media.StoreCameraMediaOptions
+//
+//			{
+//				Name = "test.jpg",
+//				Directory ="MediaPickerSampel"
+//			})
+			picker.PickPhotoAsync()
+				.ContinueWith(t=>
 			                {
 				if(t.IsCanceled)
 				{	

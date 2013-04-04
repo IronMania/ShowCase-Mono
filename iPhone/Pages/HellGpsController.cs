@@ -14,6 +14,7 @@ namespace iPhone
 		public HellGpsController () : base ("HellGpsController", null)
 		{
 			Title = "GPS";
+			TabBarItem.Image = UIImage.FromFile("Images/second.png");
 		}
 		
 		public override void DidReceiveMemoryWarning ()
@@ -48,7 +49,7 @@ namespace iPhone
 			{
 				startLocatingButton.SetTitle("start Locating", UIControlState.Normal);
 				this.geolocator.StopListening();
-				statusLavel.Text = "stoped Locating";
+				statusLavel.Text = "stopped Locating";
 
 			}
 		}

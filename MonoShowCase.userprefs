@@ -1,17 +1,20 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone.6.1" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="iPhone/Pages/HelloCamController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets">
     <Files>
-      <File FileName="iPhone/Pages/HellGpsController.cs" Line="1" Column="1" />
-      <File FileName="iPhone/Pages/HelloCamController.cs" Line="11" Column="3" />
+      <File FileName="iPhone/Pages/HellGpsController.cs" Line="33" Column="58" />
+      <File FileName="iPhone/Pages/HelloCamController.cs" Line="20" Column="18" />
+      <File FileName="iPhone/Pages/HelloWorldController.cs" Line="14" Column="18" />
+      <File FileName="../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True" selected="True">
+        <State expanded="True">
           <Node name="iPhone" expanded="True">
             <Node name="References" expanded="True" />
             <Node name="Pages" expanded="True" />
           </Node>
+          <Node name="MonoDroid" selected="True" />
         </State>
       </Pad>
       <Pad Id="ClassPad">
